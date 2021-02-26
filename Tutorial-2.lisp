@@ -9,3 +9,26 @@
 
 (print (fib 5))
 
+
+(defun factorial(n) 
+    
+    (if ( = n 1) 1
+        ( * n (sumnat (- n 1)))
+    )    
+)
+
+(print (factorial 10) )
+
+
+(defun sumnat(n) 
+    
+    (if ( <= n 1) 1
+        ( + n (sumnat (- n 1)))
+    )    
+)
+
+(print (sumnat 10) )
+
+
+
+
