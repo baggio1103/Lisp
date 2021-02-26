@@ -2,6 +2,6 @@
 
 Introduction to Functional Language LISP
 
-Tutorial #2:
+#Tutorial #2:
 - Fibbonacci Sequence
 - Exponen 
