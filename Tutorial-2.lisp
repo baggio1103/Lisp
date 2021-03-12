@@ -30,5 +30,8 @@
 (print (sumnat 10) )
 
 
+(defun multi (n)
+    (if (< n 10) n
+        (+ (rem n 10) (multi (truncate n 10)))))
 
 
