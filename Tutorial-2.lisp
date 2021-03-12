@@ -35,3 +35,21 @@
         (+ (rem n 10) (multi (truncate n 10)))))
 
 
+
+(defparameter mylist (list 1 2 4 0 -1 3))
+(defvar x 0)
+(setq index 0)
+(loop for n in mylist
+      if (> x n)
+      do (setq x n)
+      (if (EQ n 3)
+      do (setf (nth index mylist) 12213))
+      
+do (setq index (+ index 1))
+
+)
+
+(print mylist)
+(print index)
+
+
